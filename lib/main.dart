@@ -39,13 +39,7 @@ Future<void> initializeAppData() async {
             'isbn': '978-0307474728',
             'disponible': true
           },
-          {
-            'id': '2',
-            'titulo': 'Don Quijote de la Mancha',
-            'autor': 'Miguel de Cervantes',
-            'isbn': '978-8424936464',
-            'disponible': true
-          }
+          
         ],
         'fecha_creacion': DateTime.now().toIso8601String(),
       };
